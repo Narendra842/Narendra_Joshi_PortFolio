@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  scrollbar-width: thin;
+  scrollbar-color: #242424;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .icon_size {
+    @apply xl:w-20 xl:h-20 lg:w-16 lg:h-16 md:w-12 
+    md:h-12 sm:w-6 sm:h-6 h-12 w-12 rounded-lg
+     bg-white;
+  }
+}
