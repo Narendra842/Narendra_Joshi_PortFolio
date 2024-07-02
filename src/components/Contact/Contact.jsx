@@ -39,7 +39,8 @@ function Contact() {
 
   return (
     <>
-      <div className="h-auto w-full flex bg-[url('./assets/contact.jpg')] bg-cover bg-no-repeat animate-fadeIn">
+      <div className="h-auto w-full flex bg-[url('./assets/contact.jpg')] bg-cover bg-no-repeat
+      ">
         <Formik
           initialValues={{ name: "", email: "", message: "" }}
           validationSchema={validationSchema}

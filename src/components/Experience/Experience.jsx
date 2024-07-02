@@ -3,7 +3,7 @@ import KSJ from "../../assets/KSJ.jpg";
 function Experience() {
   return (
     <>
-      <main className="w-full h-auto animate-fadeIn bg-[url('./assets/experience.jpg')] bg-cover bg-no-repeat ">
+      <main className="w-full h-auto  bg-[url('./assets/experience.jpg')] bg-cover bg-no-repeat ">
         <div className="flex flex-col h-full flex-wrap xl:mt-0 py-3 animate__animated animate__zoomIn">
           <div className=" xl:flex w-full items-center h-full">
             <div

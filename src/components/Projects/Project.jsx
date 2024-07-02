@@ -3,7 +3,7 @@ function Project() {
     <>
       <main
         className="w-full h-auto
-     flex flex-col tracking-widest leading-relaxed animate-fadeIn
+     flex flex-col tracking-widest leading-relaxed 
       bg-[url('./assets/project.jpg')] bg-cover bg-no-repeat "
       >
         <div

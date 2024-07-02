@@ -24,7 +24,7 @@ function Skill() {
     <>
       <main
         className=" relative  h-auto w-full flex flex-col justify-center
-         mx-auto animate-fadeIn bg-[url('./assets/skill.jpeg')] bg-no-repeat bg-cover"
+         mx-auto  bg-[url('./assets/skill.jpeg')] bg-no-repeat bg-cover"
       >
         <div
           className="grid grid-cols-4 sm:grid-cols-4 xl:grid-cols-5 md:grid-cols-5 md:gap-12 lg:gap-12 

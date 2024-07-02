@@ -5,7 +5,7 @@ function Home() {
   return (
     <main
       className="w-full bg-[url('./assets/header.jpeg')]  bg-no-repeat  bg-cover
-     flex flex-wrap flex-shrink duration-300 animate-fadeIn text-white "
+     flex flex-wrap flex-shrink duration-300  text-white "
     >
       <div className=" place-content-center mx-auto sm:text-left text-center">
         <div
@@ -35,7 +35,7 @@ function Home() {
           </p>
           <button className=" mt-2 ">
             <Link
-              to="https://drive.google.com/uc?export=download&id=1qGG0DpDsXaqUgumZFhv1CHWMVcxgy04K"
+              to="https://drive.google.com/uc?export=download&id=1qGG0DpDsXaqUgumZFhv1CHWMVcxgy04K" 
               className=" text-xl text-center px-8 py-2 duration-200 max-w-none 
                 ring-2 ring-white  hover:ring-blue-500 hover:text-gray-500 
                rounded-xl font-extrabold  animate__animated animate__fadeInDown"
