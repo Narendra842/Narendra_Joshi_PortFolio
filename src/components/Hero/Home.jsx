@@ -35,7 +35,7 @@ function Home() {
           </p>
           <button className=" mt-2 ">
             <Link
-              to="https://drive.google.com/uc?export=download&id=1qGG0DpDsXaqUgumZFhv1CHWMVcxgy04K" 
+              to="https://drive.google.com/file/d/1C_sM9jmhvjoIVOae0yGjXFu0vhUcqBdi/view?usp=sharing" 
               className=" text-xl text-center px-8 py-2 duration-200 max-w-none 
                 ring-2 ring-white  hover:ring-blue-500 hover:text-gray-500 
                rounded-xl font-extrabold  animate__animated animate__fadeInDown"
