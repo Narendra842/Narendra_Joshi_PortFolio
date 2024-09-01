@@ -7,7 +7,7 @@ function Project() {
       bg-[url('./assets/project.jpg')] bg-cover bg-no-repeat "
       >
         <div
-          className="  w-full min-h-min
+          className="  w-full 
         animate__animated animate__zoomIn"
         >
           <div className="xl:flex flex-wrap justify-around  max-xl:min-h-screen max-xl:py-10 max-xl:space-y-4 sm:px-0 px-4 ">
@@ -15,11 +15,11 @@ function Project() {
               <h1
                 className="text-3xl font-extrabold tracking-wide text-center
                 transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150 cursor-pointer"
+               duration-150 cursor-pointer pb-4"
               >
                 APG {"(Affinion Payment Gateway)"}
               </h1>
-              <ul className="max-w-lg text-base text-pretty flex flex-col gap-3 overflow-y-auto ">
+              <ul className="max-w-xl max-xl:max-w-lg text-base text-pretty flex flex-col gap-3 overflow-y-auto ">
                 <li>
                   • The Affinion Group, operating customer loyalty programs in
                   over twenty countries, is upgrading its APG system to support
@@ -50,14 +50,14 @@ function Project() {
 
             <div className="flex flex-col items-center">
               <h1
-                className="text-3xl font-extrabold tracking-wide 
+                className="text-3xl font-extrabold tracking-wide pb-4
               text-center transition ease-out hover:translate-y-1 hover:scale-110
                 duration-150 cursor-pointer"
               >
                 ATS {"(Application Tracking System)"}
               </h1>
               <ul
-                className="max-w-lg text-base text-pretty flex flex-col gap-3 overflow-y-auto "
+                className="max-w-xl max-xl:max-w-lg text-base text-pretty flex flex-col gap-3 overflow-y-auto "
               >
                 <li>
                   • Auto-Hire is designed to transform the candidate experience
