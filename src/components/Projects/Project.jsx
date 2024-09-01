@@ -2,24 +2,24 @@ function Project() {
   return (
     <>
       <main
-        className="w-full h-auto
-     flex flex-col tracking-widest leading-relaxed 
+        className="w-full min-h-screen items-center justify-center
+       flex flex-col tracking-widest leading-relaxed  md:gap-4 lg:gap-8
       bg-[url('./assets/project.jpg')] bg-cover bg-no-repeat "
       >
         <div
-          className="flex h-full flex-wrap items-center mt-5 xl:mt-0  
+          className="  w-full min-h-min
         animate__animated animate__zoomIn"
         >
-          <div className="xl:flex w-full items-center">
-            <div className="flex flex-col  mx-auto items-center px-3 ">
+          <div className="xl:flex flex-wrap justify-around  max-xl:min-h-screen max-xl:py-10 max-xl:space-y-4 sm:px-0 px-4 ">
+            <div className="flex flex-col items-center ">
               <h1
                 className="text-3xl font-extrabold tracking-wide text-center
-               py-2 transition ease-out hover:translate-y-1 hover:scale-110  
+                transition ease-out hover:translate-y-1 hover:scale-110  
                duration-150 cursor-pointer"
               >
                 APG {"(Affinion Payment Gateway)"}
               </h1>
-              <ul className="max-w-lg text-base text-pretty flex flex-col gap-3  ">
+              <ul className="max-w-lg text-base text-pretty flex flex-col gap-3 overflow-y-auto ">
                 <li>
                   • The Affinion Group, operating customer loyalty programs in
                   over twenty countries, is upgrading its APG system to support
@@ -48,17 +48,16 @@ function Project() {
               </ul>
             </div>
 
-            <div className="flex flex-col mx-auto items-center px-3 mt-5 xl:mt-0 ">
+            <div className="flex flex-col items-center">
               <h1
                 className="text-3xl font-extrabold tracking-wide 
-              text-center  transition ease-out hover:translate-y-1 hover:scale-110
+              text-center transition ease-out hover:translate-y-1 hover:scale-110
                 duration-150 cursor-pointer"
               >
                 ATS {"(Application Tracking System)"}
               </h1>
               <ul
-                className="max-w-xl text-base  text-pretty 
-              py-3 flex flex-col gap-3"
+                className="max-w-lg text-base text-pretty flex flex-col gap-3 overflow-y-auto "
               >
                 <li>
                   • Auto-Hire is designed to transform the candidate experience

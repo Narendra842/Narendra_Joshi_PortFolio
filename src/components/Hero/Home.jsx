@@ -23,7 +23,7 @@ function Home() {
             className="text-3xl font-extrabold text-center animate__animated animate__fadeInDown"
             strings={[
               "Java Developer",
-              "2.3+ Years Experience",
+              "2.6+ Years Experience",
               "Back End Developer",
             ]}
             typeSpeed={18}

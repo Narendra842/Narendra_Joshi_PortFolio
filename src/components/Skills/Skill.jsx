@@ -32,206 +32,206 @@ function Skill() {
               md:px-8 sm:py-1 sm:px-1 py-4 px-1  animate__animated animate__zoomIn "
         >
           <div className="flex flex-col items-center text-center  ">
-            <span>HTML</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150  "
+              duration-150  "
               src={html5}
               alt="html5"
-            />
+              />
+              <span>HTML</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>CSS</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={css}
               alt="css"
-            />
+              />
+              <span>CSS</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>JavaScript</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={JavaScript}
               alt="JavaScript"
-            />
+              />
+              <span>JavaScript</span>
           </div>
 
           {/* icons div */}
           <div className="flex flex-col items-center text-center ">
-            <span>Java</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={Java}
               alt="Java"
-            />
+              />
+              <span>Java</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>MYSQL</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={mysql}
               alt="mysql"
-            />
+              />
+              <span>MYSQL</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>Postgres</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={Postgres}
               alt="Postgres"
-            />
+              />
+              <span>Postgres</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>TomCat</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={Tomcat}
               alt="Tomcat"
-            />
+              />
+              <span>TomCat</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>Hibernate</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={Hibernate}
               alt="Hibernate"
-            />
+              />
+              <span>Hibernate</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>NestJS</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={Nestjs}
               alt="Nestjs"
-            />
+              />
+              <span>NestJS</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>NodeJS</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={Nodejs}
               alt="NodeJS"
-            />
+              />
+              <span>NodeJS</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>Spring </span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={Spring}
               alt="Spring"
-            />
+              />
+              <span>Spring </span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>React</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={react_1}
               alt="React"
-            />
+              />
+              <span>React</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>Gradle </span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={Gradle}
               alt="Gradle"
-            />
+              />
+              <span>Gradle </span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>Apache</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={ApacheMaven}
               alt="ApacheMaven"
-            />
+              />
+              <span>Apache</span>
           </div>
 
           {/* icons div */}
 
           <div className="flex flex-col items-center text-center ">
-            <span>VSCode</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={vs}
               alt="vs"
-            />
+              />
+              <span>VSCode</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>BitBucket</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={BitBucket}
               alt="BitBucket"
-            />
+              />
+              <span>BitBucket</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>Eclipse</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={Eclipse}
               alt="Eclipse"
-            />
+              />
+              <span>Eclipse</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>GitHub</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={GitHub}
               alt="GitHub"
-            />
+              />
+              <span>GitHub</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>Jira</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={Jira}
               alt="Jira"
-            />
+              />
+              <span>Jira</span>
           </div>
 
           <div className="flex flex-col items-center text-center ">
-            <span>Postman</span>
             <img
               className="icon_size transition ease-out hover:translate-y-1 hover:scale-110  
-               duration-150"
+              duration-150"
               src={Postman}
               alt="Postman"
-            />
+              />
+              <span>Postman</span>
           </div>
         </div>
       </main>
